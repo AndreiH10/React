@@ -1,0 +1,61 @@
+.send-button{
+    background-color: rgb(25, 135, 84);
+    color: white;
+    padding: 12px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.chat-input{
+    padding: 12px 15px;
+    border-radius: 10px;
+    border-width: 1px;
+    font-size: 15px;
+
+    flex-grow: 1;
+}
+
+.chat-input-container{
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.button-on{
+    background-color: rgb(25, 135, 84);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-left: 3px;
+    padding: 12px 15px;
+    font-size: 15px;
+    color: white;
+}
+
+.button-off{
+    background-color: rgb(220, 53, 69);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+    padding: 12px 15px;
+    font-size: 15px;
+    color: white;
+}
+
+.loading-spinner{
+    height: 40px;
+    margin: -15px;
+}
+
+.clear-button{
+    background-color: rgb(216, 213, 213);
+    border: none;
+    cursor: pointer;
+    padding: 12px 15px;
+    border-radius: 10px;
+    margin-left: 5px;
+    font-size: 15px;
+}
