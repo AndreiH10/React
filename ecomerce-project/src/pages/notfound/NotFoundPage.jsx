@@ -1,10 +1,10 @@
-import Header from '../components/Header';
+import Header from '../../components/Header';
 import './NotFoundPage.css';
 
-function NotFoundPage(){
+function NotFoundPage({ cart }){
     return(
         <>
-            <Header />
+            <Header cart={cart} />
 
             <title>Not found page</title>
             <link rel="icon" type="image/svg+xml" href="home-favicon.png" />
